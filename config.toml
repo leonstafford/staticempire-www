@@ -1,0 +1,16 @@
+baseURL = "https://staticempi.re/"
+languageCode = "en-us"
+title = "Static Empire"
+theme = "accessible-minimalism"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Sites"
+    url = "/sites/"
+    weight = 2

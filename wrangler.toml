@@ -1,0 +1,10 @@
+account_id = "69c736c51a7a73dccc0b83f75d3bedce"
+name = "workers-www-staticempire"
+type = "webpack"
+route = "staticempi.re/*"
+workers_dev = false
+zone_id = "047e4b932ea59eca7025149e1ed732a5"
+
+[site]
+bucket = "public"
+entry-point = "workers-site"
