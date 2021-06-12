@@ -6,9 +6,29 @@
 
 <h2>Live sites</h2>
 
+  <p><i>by Leon</i></p>
+
   {{/* repeat same loop 4x, group by status and owner */}}
 
-  {{ range sort (where .Site.RegularPages "Params.status" "Live") "Params.estimated_value" "desc" }}
+  {{ range sort (where (where .Site.RegularPages "Params.status" "Live") "Params.owner" "Leon") "Params.estimated_value" "desc" }}
+
+    <ul>
+
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+          - built with {{ .Params.backend }}, hosted on {{ .Params.hosting }}
+          via {{ .Params.registrar }} until {{ .Params.expires | dateFormat "Jan 2, 2006" }}
+      </li>
+
+    </ul>
+
+  {{ end }}
+
+  <p><i>by Grace</i></p>
+
+  {{/* repeat same loop 4x, group by status and owner */}}
+
+  {{ range sort (where (where .Site.RegularPages "Params.status" "Live") "Params.owner" "Grace") "Params.estimated_value" "desc" }}
 
     <ul>
 
