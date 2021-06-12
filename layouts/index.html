@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <h1 class="title">{{ .Site.Title }}</h1>
+
+  {{ .Content }}
+
+
+<h2>Live sites</h2>
+
+  {{/* repeat same loop twice, once for live, once for draft */}}
+
+  {{ range .Site.RegularPages }}
+
+    <ul>
+
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+          - built with {{ .Params.backend }}, hosted on {{ .Params.hosting }}
+          via {{ .Params.registrar }} until {{ .Params.expires | dateFormat "Jan 2, 2006" }}
+      </li>
+
+    </ul>
+
+  {{ end }}
+
+<h3>Planned sites</h3>
+
+  TBD
+
+<h4>Upcoming renenewals</h4>
+
+  TBD
+
+{{ end }}
