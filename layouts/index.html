@@ -8,7 +8,7 @@
 
   {{/* repeat same loop 4x, group by status and owner */}}
 
-  {{ range where .Site.RegularPages "Params.status" "Live" }}
+  {{ range sort (where .Site.RegularPages "Params.status" "Live") "Params.estimated_value" "desc" }}
 
     <ul>
 

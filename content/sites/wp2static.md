@@ -10,6 +10,7 @@ expires: 2025-07-14
 naked-domain: wp2static.com
 www: https://wp2static.com
 status: Live
+estimated_value: 23398
 owner: Leon
 ---
 
