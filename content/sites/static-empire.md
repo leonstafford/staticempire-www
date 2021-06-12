@@ -10,6 +10,7 @@ expires: 2022-07-02
 naked-domain: staticempi.re
 www: https://staticempi.re
 status: Live
+owner: Leon
 ---
 
 This site itself serves as an umbrella for all of Leon's websites.

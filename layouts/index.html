@@ -6,9 +6,9 @@
 
 <h2>Live sites</h2>
 
-  {{/* repeat same loop twice, once for live, once for draft */}}
+  {{/* repeat same loop 4x, group by status and owner */}}
 
-  {{ range .Site.RegularPages }}
+  {{ range where .Site.RegularPages "Params.status" "Live" }}
 
     <ul>
 
@@ -24,7 +24,19 @@
 
 <h3>Planned sites</h3>
 
-  TBD
+  {{ range where .Site.RegularPages "Params.status" "Planned" }}
+
+    <ul>
+
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+          - {{ .Params.description }}.
+          {{ .Params.registrar }} registered until {{ .Params.expires | dateFormat "Jan 2, 2006" }}
+      </li>
+
+    </ul>
+
+  {{ end }}
 
 <h4>Upcoming renenewals</h4>
 
