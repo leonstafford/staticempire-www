@@ -14,5 +14,5 @@ estimated_value:
 owner: Grace
 ---
 
-description: Grace Villarino Folio Site
+Grace Villarino Folio Site
 
