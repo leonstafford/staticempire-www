@@ -1,0 +1,47 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+
+{{ .Content }}
+
+<ul>
+  <li>
+        <b>Site name:</b>
+        {{ .Title }}
+  </li>
+  <li>
+        <b>URL:</b>
+        <a href="" title="{{ .Title }}">{{ .Params.www }}</a>
+  </li>
+  <li>
+        <b>Description:</b>
+        {{ .Params.description }}
+  </li>
+  <li>
+        <b>Owned by:</b>
+        {{ .Params.owner }}
+  </li>
+  <li>
+        <b>Hosted on:</b>
+        {{ .Params.hosting }}
+  </li>
+  <li>
+        <b>Backend:</b>
+        {{ .Params.backend }}
+  </li>
+  <li>
+        <b>Frontend:</b>
+        {{ .Params.frontend }}
+  </li>
+  <li>
+        <b>Registered with:</b>
+        {{ .Params.registrar }}
+  </li>
+  <li>
+        <b>Expires:</b>
+        {{ .Params.expires | dateFormat "Jan 2, 2006" }}
+  </li>
+</ul>
+
+
+{{ end }}
