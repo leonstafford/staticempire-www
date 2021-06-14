@@ -6,7 +6,7 @@ hosting: NA
 backend: NA
 frontend: NA
 registrar: Namecheap
-expires: 2021-07-11 
+expires: 2022-07-11 
 naked-domain: wpcli.dev
 www: https://wpcli.dev
 status: Planned
