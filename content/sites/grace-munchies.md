@@ -6,7 +6,7 @@ hosting: NA
 backend: NA
 frontend: NA
 registrar: Namecheap
-expires: 2022-07-09
+expires: 2022-06-09
 naked-domain: gracemunchies.com
 www: https://gracemunchies.com
 status: Planned
