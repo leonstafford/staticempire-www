@@ -5,7 +5,7 @@ description: Leon Stafford's homepage
 hosting: Cloudfront
 backend: Hugo
 frontend: Accessible Minimalism
-registrar: Name.com
+registrar: Porkbun
 dns: Cloudflare
 expires: 2022-03-13 
 naked-domain: ljs.dev
