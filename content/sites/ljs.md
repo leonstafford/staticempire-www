@@ -7,7 +7,7 @@ backend: Hugo
 frontend: Accessible Minimalism
 registrar: Porkbun
 dns: Cloudflare
-expires: 2022-03-13 
+expires: 2025-03-13 
 naked-domain: ljs.dev
 www: https://ljs.dev
 status: Live
