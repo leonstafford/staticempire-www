@@ -6,7 +6,7 @@ hosting: Netlify
 backend: WordPress
 frontend: Elementor
 registrar: CheapDomain
-expires: 2021-07-17
+expires: 2022-07-17
 naked-domain: wpjamstack.com
 www: https://www.wpjamstack.com
 status: Live
