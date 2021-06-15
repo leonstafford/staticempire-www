@@ -6,7 +6,7 @@ hosting: Netlify
 backend: WordPress
 frontend: Elementor
 registrar: CheapDomain
-expires: 2021-07-21 
+expires: 2022-07-21 
 naked-domain: trainingforwordpress.com
 www: https://trainingforwordpress.com
 status: Live
