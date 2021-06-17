@@ -17,7 +17,7 @@ owner: Grace
 ---
 Personalised WordPress Training
 
-###Roadmap###
+###Roadmap
 - Curate WordPress Training resources
 - Provide WordPress Training ground
 
