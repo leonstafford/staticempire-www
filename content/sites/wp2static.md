@@ -2,7 +2,7 @@
 date: 2021-06-12
 title: WP2Static
 description: Static site generator plugin for WordPress
-hosting: CloudFront
+hosting: Cloudflare
 backend: Hugo
 frontend: Accessible Minimalism
 registrar: GoDaddy
