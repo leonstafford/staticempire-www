@@ -15,6 +15,6 @@ owner: Grace
 
 Directory for communities, CSA, coops, social enterprises producing food, products that help the people and the planet.
 
-###Roadmap###
+###Roadmap
  - Data entry for the directory for communities: CSA, coops, social enterprises producing food, products that help the people and the planet. Aim to add in entries every day
  - Curate inspiring stories from these communities
