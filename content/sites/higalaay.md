@@ -14,7 +14,16 @@ owner: Grace
 ---
 
 Directory for communities, CSA, coops, social enterprises producing food, products that help the people and the planet.
+Curate inspiring stories from these communities.
 
-###Roadmap###
- - Data entry for the directory for communities: CSA, coops, social enterprises producing food, products that help the people and the planet. Aim to add in entries every day
- - Curate inspiring stories from these communities
+### Roadmap
+- data entry with custom fields
+- add 1 of each type of data entry first
+- back-up management in place
+- deploy test site on netlify
+- back to more data entry
+- add article sources for aggregation/syndication
+
+
+
+
