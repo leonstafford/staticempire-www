@@ -15,5 +15,7 @@ owner: Leon
 source_code: https://github.com/leonstafford/wp2hugo-www
 ---
 
+### Roadmap
 
-
+ - add Guides, linking to external guides with custom intro
+ - add Tools, a directory of all the useful WordPress to Hugo tools
