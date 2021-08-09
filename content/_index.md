@@ -1,6 +1,6 @@
 ---
 ---
 
-Static website menagerie of Team Staffarino ([Leon Stafford](https://ljs.dev) and [Grace Villarino](https://www.gracevillarino.com/)).
+Static website menagerie of [Leon Stafford](https://ljs.dev).
 
 
